@@ -6,6 +6,7 @@ function increment(){
     count += 1
     countEl.innerText = count
 
+    // adding colors so that it changes when count is above 1
     if (count>0){
         countEl.style.color = 'green';
         }
