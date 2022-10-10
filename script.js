@@ -25,6 +25,7 @@ function save(){
 }
 
 function reset(){
-    count = 0
-    countEl.innerText = count
+    // count = 0
+    // countEl.innerText = count
+    location.reload();
 }
