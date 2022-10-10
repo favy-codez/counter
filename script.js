@@ -9,6 +9,9 @@ function increment(){
     if (count>0){
         countEl.style.color = 'green';
         }
+    if (count===0){
+            countEl.style.color = 'black';
+    }
 }
 
 function decrement(){
@@ -17,6 +20,9 @@ function decrement(){
 
     if (count<0){
         countEl.style.color = 'red';
+        }
+    if (count===0){
+            countEl.style.color = 'black';
         }
 }
 
@@ -36,4 +42,8 @@ function reset(){
     // count = 0
     // countEl.innerText = count
     location.reload();
+
+    if (count===0){
+        countEl.style.color = 'black';
+        }
 }
