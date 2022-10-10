@@ -97,6 +97,12 @@ h2{
   background: var(--clr-black);
 }
 
+#save-el{
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 /* media query */
 @media screen and (min-width: 992px) {
   

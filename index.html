@@ -13,17 +13,18 @@
     <main>
       <div class="container">
         <h2>COUNTER</h2>
-        <span id="value">0</span>
+        <span id="count-el">0</span>
       </div>
       <div class="button-container">
-        <button class="btn increase" onclick="decrement()">decrease</button>
-        <button class="btn reset" onclick="reset()">reset</button>
         <button class="btn increase" onclick="increment()">increase</button>
-        <button id="save-btn" onclick="save()">SAVE</button>
+        <button class="btn increase" onclick="decrement()">decrease</button>
+        <button id="save-btn" class="btn" onclick="save()">SAVE</button>
+        <button class="btn reset" onclick="reset()">reset</button>
+        <p id="save-el">Previous entires: </p>
       </div>
     </main>
 
 
-    <script src="app.js"></script>
+    <script src="/script.js"></script>
   </body>
 </html>
