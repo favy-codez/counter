@@ -5,11 +5,19 @@ let count =0
 function increment(){
     count += 1
     countEl.innerText = count
+
+    if (count>0){
+        countEl.style.color = 'green';
+        }
 }
 
 function decrement(){
     count -= 1
     countEl.innerText = count
+
+    if (count<0){
+        countEl.style.color = 'red';
+        }
 }
 
 function save(){
